@@ -2,6 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "echo ''",					3600,		0},
+	{"", "/usr/local/bin/dwmblocks_scripts/countdown.sh",					60,		0},
 	{"  ", "/usr/local/bin/dwmblocks_scripts/volume",					1,		0},
 	{"  ", "/usr/local/bin/dwmblocks_scripts/memory",					10,		0},
 	{"  ", "df | grep '/dev/nvme0n1p7' | awk '{print $5}'",					60,		0},
